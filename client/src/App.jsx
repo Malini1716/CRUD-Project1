@@ -58,7 +58,7 @@ const handleSubmit = async (e) => {
     await axios.post("http://localhost:8000/users", userData);
   }
 
-  await getAllUsers();   // ✅ refresh local list immediately!
+  await getAllUsers();   // refresh local list immediately!
 
   closeModal();
   setUserData({ actor: "", year: "", movies: "" });
