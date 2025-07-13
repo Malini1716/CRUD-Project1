@@ -1,0 +1,62 @@
+[
+  {
+    "id": 2,
+    "actor": "SK",
+    "year": 2021,
+    "movies": "Remo"
+  },
+  {
+    "id": 4,
+    "actor": "Vijay",
+    "year": 2022,
+    "movies": "Beast"
+  },
+  {
+    "id": 5,
+    "actor": "Nanii",
+    "year": "2025",
+    "movies": "Hi Nanna"
+  },
+  {
+    "id": 6,
+    "actor": "Allu Arjun",
+    "year": 2021,
+    "movies": "Pushpa"
+  },
+  {
+    "id": 7,
+    "actor": "Suriya",
+    "year": 2020,
+    "movies": "Soorarai Pottru"
+  },
+  {
+    "id": 8,
+    "actor": "Karthi",
+    "year": 2022,
+    "movies": "Sardar"
+  },
+  {
+    "id": 9,
+    "actor": "Vikram",
+    "year": 2022,
+    "movies": "Cobra"
+  },
+  {
+    "id": 1752335535978,
+    "actor": "Suriya",
+    "year": "2022",
+    "movies": "singham3"
+  },
+  {
+    "id": 1752335934601,
+    "actor": "Sanjai",
+    "year": "2022",
+    "movies": "SM kaadhal"
+  },
+  {
+    "id": 1752401843019,
+    "actor": "Priya",
+    "year": "2023",
+    "movies": "Remo"
+  }
+]
