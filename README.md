@@ -32,3 +32,5 @@ If a student is not present in class, their name will be marked absent and delet
 
    ```bash
    git clone https://github.com/Malini1716/CRUD-Project1.git
+photos![CRUD output](https://github.com/user-attachments/assets/5ae71766-910e-4179-acf4-62aa6bdd15d8)
+
