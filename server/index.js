@@ -7,11 +7,15 @@ const app = express();
 app.use(express.json());
 const port = 8000;
 app.use(
-    cors({
-      origin: 'http://localhost:5173',
-      methods: ['GET', 'POST', 'PATCH', 'DELETE'],
-    })
+  cors({
+    origin: [
+      'http://localhost:5173',
+      'https://fabulous-cucurucho-89105e.netlify.app'
+    ],
+    methods: ['GET', 'POST', 'PATCH', 'DELETE'],
+  })
 );
+
 
 // Display all users
 app.get('/users', (req, res) => {
