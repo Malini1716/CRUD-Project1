@@ -10,7 +10,8 @@ function App() {
 
   const getAllUsers = async () => {
     try {
-      const res = await axios.get("http://localhost:8000/users");
+      const res = await axios.get("https://9fb12c90-6deb-48f4-b5f7-ab22729d73b9-00-yll31eqehrg0.pike.replit.dev/users");
+
       setUsers(res.data);
       setFilterUsers(res.data);
     } catch (err) {
@@ -36,7 +37,8 @@ function App() {
     const isConfirmed = window.confirm("Are you sure you want to delete this user?");
     if (isConfirmed) {
       try {
-        await axios.delete(`http://localhost:8000/users/${id}`);
+        await axios.delete(`https://9fb12c90-6deb-48f4-b5f7-ab22729d73b9-00-yll31eqehrg0.pike.replit.dev/users/${id}`);
+
         getAllUsers();
       } catch (err) {
         console.error("Error deleting user:", err);
@@ -61,9 +63,11 @@ function App() {
     e.preventDefault();
     try {
       if (userData.id) {
-        await axios.patch(`http://localhost:8000/users/${userData.id}`, userData);
+        await axios.patch(`https://9fb12c90-6deb-48f4-b5f7-ab22729d73b9-00-yll31eqehrg0.pike.replit.dev/users/${userData.id}`, userData);
+
       } else {
-        await axios.post("http://localhost:8000/users", userData);
+        await axios.post("https://9fb12c90-6deb-48f4-b5f7-ab22729d73b9-00-yll31eqehrg0.pike.replit.dev/users", userData);
+
       }
       await getAllUsers();
       closeModal();
